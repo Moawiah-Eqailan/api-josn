@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Grid</title>
+    <style>
+        #PokContainer {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        #PokContainer :hover {
+            transform: scale(1.1);
+        }
+
+        .Pok {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .Pok img {
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        .Pok h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+
+        .Pok p {
+            font-size: 1em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="PokContainer"></div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+{
+    "flowers": [
+        {
+            "name": "alstroemerias",
+            "src": "img/alstroemerias.jpg"
+        },
+        {
+            "name": "gardenias",
+            "src": "img/gardenias.jpg"
+        },
+        {
+            "name": "orchids",
+            "src": "img/orchids.jpg"
+        },
+        {
+            "name": "peonies",
+            "src": "img/peonies.jpg"
+        },
+        {
+            "name": "roses",
+            "src": "img/roses.jpg"
+        },
+        {
+            "name": "sunflowers",
+            "src": "img/sunflowers.jpg"
+        },
+        {
+            "name": "tulips",
+            "src": "img/tulips.jpg"
+        }
+    ]
+}

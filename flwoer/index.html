@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            width: 300px; 
+            height: auto; 
+            display: none; 
+        }
+    </style>
+</head>
+
+<body>
+    <section class="containerSec">
+        <div class="formDiv">
+            <form action="" id="formGarden">
+                <fieldset style="width: 200px;">
+                    <legend>Garden Information</legend>
+
+                    <label for="nameInp">Name</label>
+                    <br>
+                    <input type="text" name="nameInp" id="nameInp">
+                    <br><br>
+
+                    <label for="selImg">Image</label>
+                    <br>
+                    <select name="selImg" id="selImg">
+                        <option value="alstroemerias">Alstroemerias</option>
+                        <option value="gardenias">Gardenias</option>
+                        <option value="orchids">Orchids</option>
+                        <option value="peonies">Peonies</option>
+                        <option value="roses">Roses</option>
+                        <option value="sunflowers">Sunflowers</option>
+                        <option value="tulips">Tulips</option>
+                    </select>
+                    <br><br>
+
+                    <label for="sesonInp">Season</label>
+                    <br>
+                    <input type="text" name="sesonInp" id="sesonInp">
+                    <br><br>
+
+                    <button type="submit">Send</button>
+                    <button type="button" id="clerLis">Clear List</button>
+                     <img id="flowerImg" src="" alt="Selected Flower" style="display:none;">
+ 
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="tableDiv" id="tableGarden">
+            <table id="tabCon">
+                <thead id="headCon"></thead>
+                <tbody id="bodCon"></tbody>
+                <tfoot id="tfoCon"></tfoot>
+            </table>
+        </div>
+
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
